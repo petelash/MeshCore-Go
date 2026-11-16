@@ -28,8 +28,8 @@ This repository only holds the **releases** (APK files). The source code is not 
 The app checks this repository once a day (Settings → About → *Check for updates*, can be turned off). When a newer version exists it offers to download it; Android then asks you to confirm the install. Your messages and settings stay.
 
 ## Licence
-MeshCore Go © 2026 Marinko Vrbanić. **All rights reserved.**
-The app is free for personal and non-commercial use. Selling it or publishing modified versions without the author's permission is not allowed.
+MeshCore Go © 2026 Marinko Vrbanić, released under the **[MIT licence](LICENSE)**.
+You may freely use, copy, modify and share it, as long as you keep the copyright notice and the licence text.
 The app is provided **"as is", without any warranty**; the author is not liable for any damage arising from its use.
 
 Unofficial client – not affiliated with the MeshCore project or Tailscale Inc. MeshCore and Tailscale belong to their owners.
@@ -76,8 +76,8 @@ Ovaj repozitorij sadrži samo **izdanja** (APK datoteke). Izvorni kod nije javan
 Aplikacija jednom dnevno provjerava ovaj repozitorij (Postavke → O aplikaciji → *Provjeri ažuriranje*, može se isključiti). Kad postoji novija verzija, ponudi preuzimanje, a Android zatim traži da potvrdiš instalaciju. Poruke i postavke ostaju.
 
 ## Licenca
-MeshCore Go © 2026 Marinko Vrbanić. **Sva prava pridržana.**
-Aplikacija je besplatna za osobnu i nekomercijalnu upotrebu. Nije dopušteno prodavati je ni objavljivati izmijenjene verzije bez dopuštenja autora.
+MeshCore Go © 2026 Marinko Vrbanić, objavljeno pod **[MIT licencom](LICENSE)**.
+Aplikaciju smiješ slobodno koristiti, kopirati, mijenjati i dijeliti, uz uvjet da zadržiš navod autora i tekst licence.
 Aplikacija se daje **„kakva jest”, bez ikakvog jamstva**; autor ne odgovara za štetu nastalu njezinim korištenjem.
 
 Neslužbeni klijent – nije povezan s MeshCore projektom ni s tvrtkom Tailscale Inc. MeshCore i Tailscale pripadaju svojim vlasnicima.
