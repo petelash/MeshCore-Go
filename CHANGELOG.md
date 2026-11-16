@@ -4,6 +4,11 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.0.5
+- Fixed notifications: the background connection service now always starts, so messages and notifications keep arriving after you leave the app.
+- A chat left open in the background now notifies about new messages and keeps them unread until you return.
+- Settings → Notifications warns when Android has notifications turned off for the app, with a shortcut to turn them on.
+
 ## 1.0.4
 - Send advert button uses the ((•)) symbol, like the original app.
 - Contact search opens from the top bar (magnifier icon) instead of a permanent search field.
@@ -125,6 +130,11 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.0.5
+- Ispravljene obavijesti: servis za vezu u pozadini sad se uvijek pokreće, pa poruke i obavijesti stižu i nakon izlaska iz aplikacije.
+- Razgovor ostavljen otvoren u pozadini sad javlja nove poruke i ostavlja ih nepročitanima dok se ne vratiš.
+- Postavke → Obavijesti upozoravaju kad su obavijesti za aplikaciju isključene u Androidu, s prečacem za uključivanje.
 
 ## 1.0.4
 - Gumb za slanje adverta koristi simbol ((•)), kao u originalnoj aplikaciji.
