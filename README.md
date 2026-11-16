@@ -4,6 +4,15 @@
 
 Android client for [MeshCore](https://meshcore.co.uk) LoRa mesh nodes, with **Tailscale built in**: at home it talks to your WiFi companion node directly, away from home it reaches the same node through your tailnet. Nothing to switch.
 
+## Leave the node at home, take MeshCore with you
+Your node can stay at home – on the roof, by the window or wherever it has the best coverage – connected to WiFi and power. Thanks to the **built-in Tailscale VPN**, the app reaches it from anywhere over the internet (mobile data or any WiFi), so you can read and send MeshCore messages, see the map and manage the node **without carrying the node with you**.
+
+- No port forwarding and no public IP needed: Tailscale creates a private, encrypted connection between your phone and your home network.
+- At home the app talks to the node directly over WiFi; away from home it switches to Tailscale by itself.
+- The node stays where its antenna works best and keeps receiving messages while you are away.
+
+You need a free [Tailscale](https://tailscale.com) account and, at home, a device that is always on and acts as a Tailscale *subnet router* (e.g. a Raspberry Pi, a NAS or a router with Tailscale), so the app can reach the node's home IP address.
+
 This repository only holds the **releases** (APK files). The source code is not public.
 
 ## Features
@@ -51,6 +60,15 @@ Unofficial client – not affiliated with the MeshCore project or Tailscale Inc.
 # MeshCore Go (hrvatski)
 
 Android klijent za [MeshCore](https://meshcore.co.uk) LoRa mesh nodeove s **ugrađenim Tailscaleom**: kod kuće se spaja izravno na tvoj WiFi companion node, a izvan kuće do istog nodea dolazi preko tvog tailneta. Ništa ne treba prebacivati.
+
+## Node ostaje doma, MeshCore ide s tobom
+Node može ostati kod kuće – na krovu, uz prozor ili gdje god ima najbolje pokrivanje – spojen na WiFi i napajanje. Zahvaljujući **ugrađenom Tailscale VPN-u** aplikacija do njega dolazi s bilo kojeg mjesta preko interneta (mobilni podaci ili bilo koji WiFi), pa možeš čitati i slati MeshCore poruke, gledati kartu i upravljati nodeom **bez nošenja nodea sa sobom**.
+
+- Ne treba otvarati portove na routeru ni imati javnu IP adresu: Tailscale radi privatnu, šifriranu vezu između mobitela i kućne mreže.
+- Kod kuće se aplikacija spaja na node izravno preko WiFi-ja, a izvan kuće sama prelazi na Tailscale.
+- Node ostaje tamo gdje mu antena najbolje radi i prima poruke i dok tebe nema.
+
+Potreban je besplatan [Tailscale](https://tailscale.com) račun, a kod kuće uređaj koji je stalno uključen i služi kao Tailscale *subnet router* (npr. Raspberry Pi, NAS ili router s Tailscaleom), da aplikacija dođe do kućne IP adrese nodea.
 
 Ovaj repozitorij sadrži samo **izdanja** (APK datoteke). Izvorni kod nije javan.
 
