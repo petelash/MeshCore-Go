@@ -4,6 +4,10 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.0.3
+- The connection notification shows the node's battery and, over Bluetooth, the signal strength (over WiFi: LAN or Tailscale) instead of the Bluetooth address.
+- The connection notification no longer adds an unread badge to the app icon.
+
 ## 1.0.2
 - The search field looks like the category buttons below it (same outline and rounded corners, compact height) and has a clear button.
 
@@ -116,6 +120,10 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.0.3
+- Obavijest o vezi umjesto Bluetooth adrese prikazuje bateriju nodea i, preko Bluetootha, jačinu signala (preko WiFi-ja: LAN ili Tailscale).
+- Obavijest o vezi više ne dodaje brojač nepročitanih na ikonu aplikacije.
 
 ## 1.0.2
 - Polje za pretragu izgleda kao gumbovi kategorija ispod njega (isti rub i zaobljenost, manja visina) i ima gumb za brisanje.
