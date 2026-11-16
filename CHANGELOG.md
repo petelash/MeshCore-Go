@@ -4,6 +4,9 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.0.6
+- The number of new received adverts is shown only next to "Received adverts" in the ⋮ menu, no longer on the menu icon.
+
 ## 1.0.5
 - Fixed notifications: the background connection service now always starts, so messages and notifications keep arriving after you leave the app.
 - A chat left open in the background now notifies about new messages and keeps them unread until you return.
@@ -130,6 +133,9 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.0.6
+- Broj novih primljenih adverta prikazuje se samo uz "Primljeni adverti" u izborniku ⋮, a ne više na ikoni izbornika.
 
 ## 1.0.5
 - Ispravljene obavijesti: servis za vezu u pozadini sad se uvijek pokreće, pa poruke i obavijesti stižu i nakon izlaska iz aplikacije.
