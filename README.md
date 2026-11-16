@@ -41,6 +41,8 @@ This repository only holds the **releases** (APK files). The source code is not 
 2. Open the file and allow "Install unknown apps" for your browser or file manager when Android asks.
 
 ## Updates
+What changed in each version: **[CHANGELOG](CHANGELOG.md)**.
+
 The app checks this repository once a day (Settings → About → *Check for updates*, can be turned off). When a newer version exists it offers to download it; Android then asks you to confirm the install. Your messages and settings stay.
 
 ## Licence
@@ -105,6 +107,8 @@ Ovaj repozitorij sadrži samo **izdanja** (APK datoteke). Izvorni kod nije javan
 2. Otvori datoteku i dopusti "Instaliraj nepoznate aplikacije" za preglednik ili upravitelj datoteka kad Android to zatraži.
 
 ## Ažuriranja
+Što se mijenjalo u svakoj verziji: **[popis promjena](CHANGELOG.md#hrvatski)**.
+
 Aplikacija jednom dnevno provjerava ovaj repozitorij (Postavke → O aplikaciji → *Provjeri ažuriranje*, može se isključiti). Kad postoji novija verzija, ponudi preuzimanje, a Android zatim traži da potvrdiš instalaciju. Poruke i postavke ostaju.
 
 ## Licenca
