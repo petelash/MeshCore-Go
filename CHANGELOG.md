@@ -66,18 +66,46 @@ All notable user-facing changes to MeshCore Go, newest first.
 - "Heard by repeaters" counter under your channel messages.
 
 ## 0.7.1 – 0.7.3
+- **Unread** button: shows how many conversations have unread messages and takes you straight to the newest one.
+- Message path on the map drawn as a red dashed line with direction arrows.
+- Layout fixes for Android 15 (no empty gaps above lists).
+
+## 0.7.0
 - Number of repeaters that heard your channel message, with the list of repeaters and their SNR.
 - Long-press a message: reply (@mention), copy, path on map, resend, delete.
-- **Message path on the map** (red dashed line with direction arrows).
+- **Message path on the map**: the repeaters a message travelled through.
 - **DM route control**: automatic, always flood or a manual path through chosen repeaters.
-- Unread messages button that takes you straight to the newest unread conversation.
 
-## 0.7.0 and earlier
-- Connection over WiFi (LAN or **built-in Tailscale VPN**, switching automatically), Bluetooth LE and USB.
-- Direct messages, channels, room servers, repeater administration (login, status, telemetry, CLI).
-- Map with MeshCore node symbols coloured by age.
-- Background operation with automatic reconnect.
-- Croatian and English, light and dark theme.
+## 0.6.0
+- **Remember password** option for repeater and room server login (stored only on the phone).
+- Notifications use the app icon.
+
+## 0.5.0
+- Official MeshCore node symbols on the map, coloured by how recently the node was heard.
+
+## 0.4.0
+- New app icon.
+- **English** language (switch in Settings, along with Croatian).
+- Author information in Settings → About.
+
+## 0.3.0
+- **Automatic connection route**: at home the app connects directly over WiFi, away from home through Tailscale – nothing to switch manually.
+- Simple, round node symbols on the map.
+
+## 0.2.0
+- The app is now called **MeshCore Go**.
+- Connect to nodes **over the local network without Tailscale, over Bluetooth LE and over USB**.
+- Separate map symbols for companions, repeaters, room servers and sensors.
+- Adjustable **font size** and choice of fonts.
+- **Always running in the background**: ignores battery optimisation, keeps the link to the node and **reconnects automatically** (each can be turned on or off).
+
+## 0.1.0 – first version
+- Android MeshCore client with **Tailscale built in**: no separate Tailscale app or system VPN is needed. Sign in with a Tailscale auth key or through the browser.
+- Connection to a WiFi companion node over TCP, through your tailnet.
+- Contacts, channels and direct messages with delivery receipts; room servers.
+- Repeater administration: login, status, trace and CLI console.
+- Map of nodes.
+- Layout and flow like the original MeshCore app (Contacts, Channels, Map, Settings), in its own design.
 
 ---
 
@@ -148,15 +176,43 @@ Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
 - Brojač "Čulo repetitora" ispod tvojih poruka u kanalu.
 
 ## 0.7.1 – 0.7.3
+- Gumb **Nepročitano**: pokazuje koliko razgovora ima nepročitane poruke i vodi ravno u najnoviji.
+- Putanja poruke na karti crta se crvenom isprekidanom crtom sa strelicama smjera.
+- Ispravke izgleda za Android 15 (nema praznog prostora iznad popisa).
+
+## 0.7.0
 - Broj repetitora koji su čuli tvoju poruku u kanalu, s popisom repetitora i njihovim SNR-om.
 - Dugi pritisak na poruku: odgovori (@spominjanje), kopiraj, putanja na karti, pošalji ponovno, obriši.
-- **Putanja poruke na karti** (crvena isprekidana crta sa strelicama smjera).
+- **Putanja poruke na karti**: repetitori kroz koje je poruka prošla.
 - **Kontrola rute za DM**: automatski, uvijek flood ili ručna putanja preko odabranih repetitora.
-- Gumb za nepročitane poruke koji vodi ravno u najnoviji nepročitani razgovor.
 
-## 0.7.0 i ranije
-- Spajanje preko WiFi-ja (LAN ili **ugrađeni Tailscale VPN**, s automatskim prebacivanjem), Bluetootha LE i USB-a.
-- Privatne poruke, kanali, chat sobe, administracija repetitora (prijava, status, telemetrija, CLI).
-- Karta sa simbolima MeshCore nodeova obojenima prema starosti.
-- Rad u pozadini s automatskim ponovnim spajanjem.
-- Hrvatski i engleski, svijetla i tamna tema.
+## 0.6.0
+- Opcija **Zapamti lozinku** za prijavu na repetitor i chat sobu (sprema se samo na telefonu).
+- Obavijesti koriste ikonu aplikacije.
+
+## 0.5.0
+- Službeni simboli MeshCore nodeova na karti, obojeni prema tome koliko je davno node zadnji put čut.
+
+## 0.4.0
+- Nova ikona aplikacije.
+- **Engleski** jezik (prebacivanje u Postavkama, uz hrvatski).
+- Podaci o autoru u Postavke → O aplikaciji.
+
+## 0.3.0
+- **Automatski odabir veze**: kod kuće se aplikacija spaja izravno preko WiFi-ja, izvan kuće preko Tailscalea – ništa ne treba ručno prebacivati.
+- Jednostavni, okrugli simboli nodeova na karti.
+
+## 0.2.0
+- Aplikacija se sad zove **MeshCore Go**.
+- Spajanje na nodeove **preko lokalne mreže bez Tailscalea, preko Bluetootha LE i preko USB-a**.
+- Zasebni simboli na karti za companion nodeove, repetitore, chat sobe i senzore.
+- Podesiva **veličina fonta** i izbor fonta.
+- **Stalni rad u pozadini**: zanemaruje štednju baterije, drži vezu s nodeom i **automatski se ponovno spaja** (svaka opcija se može uključiti ili isključiti).
+
+## 0.1.0 – prva verzija
+- Android MeshCore klijent s **ugrađenim Tailscaleom**: ne treba zasebna Tailscale aplikacija ni sistemski VPN. Prijava Tailscale auth ključem ili preko preglednika.
+- Spajanje na WiFi companion node preko TCP-a, kroz tvoj tailnet.
+- Kontakti, kanali i privatne poruke s potvrdom isporuke; chat sobe.
+- Administracija repetitora: prijava, status, trace i CLI konzola.
+- Karta nodeova.
+- Raspored i tijek rada kao u originalnoj MeshCore aplikaciji (Kontakti, Kanali, Karta, Postavke), u vlastitom dizajnu.
