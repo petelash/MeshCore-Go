@@ -4,7 +4,9 @@
 
 Android client for [MeshCore](https://meshcore.co.uk) LoRa mesh networks.
 
-**Works with every MeshCore companion node** – over Bluetooth LE, USB or WiFi – just like the official app. What sets it apart, and the reason it was made, is the **built-in Tailscale VPN**: you can use your MeshCore node from anywhere, while the node itself stays at home.
+**MeshCore Go is a complete, everyday MeshCore app** – you use it exactly like the official MeshCore app: connect your companion node over **Bluetooth LE, USB or WiFi**, chat in channels and direct messages, see nodes on the map, manage repeaters and room servers. It **works with every MeshCore companion node**, whether you carry it with you or keep it on your desk.
+
+**On top of that it has one extra feature**, the reason this app was made: a **built-in Tailscale VPN**. With it you can use your MeshCore node from anywhere over the internet while the node itself stays at home (see below). You don't have to use it – without Tailscale the app works like any other MeshCore client.
 
 ## Leave the node at home, take MeshCore with you
 Your node can stay at home – on the roof, by the window or wherever it has the best coverage – connected to WiFi and power. Thanks to the **built-in Tailscale VPN**, the app reaches it from anywhere over the internet (mobile data or any WiFi), so you can read and send MeshCore messages, see the map and manage the node **without carrying the node with you**.
@@ -66,7 +68,9 @@ Unofficial client – not affiliated with the MeshCore project or Tailscale Inc.
 
 Android klijent za [MeshCore](https://meshcore.co.uk) LoRa mesh mreže.
 
-**Radi sa svim MeshCore companion nodeovima** – preko Bluetootha LE, USB-a ili WiFi-ja – kao i službena aplikacija. Ono po čemu se razlikuje, i razlog zbog kojeg je nastala, je **ugrađeni Tailscale VPN**: svoj MeshCore node možeš koristiti s bilo kojeg mjesta, a node pritom ostaje kod kuće.
+**MeshCore Go je potpuna MeshCore aplikacija za svakodnevno korištenje** – koristiš je isto kao službenu MeshCore aplikaciju: spajaš companion node preko **Bluetootha LE, USB-a ili WiFi-ja**, dopisuješ se u kanalima i privatnim porukama, gledaš nodeove na karti, upravljaš repetitorima i chat sobama. **Radi sa svim MeshCore companion nodeovima**, bilo da node nosiš sa sobom ili ti stoji na stolu.
+
+**Uz to ima jednu dodatnu mogućnost**, zbog koje je aplikacija i nastala: **ugrađeni Tailscale VPN**. S njim svoj MeshCore node možeš koristiti s bilo kojeg mjesta preko interneta, a node pritom ostaje kod kuće (vidi niže). Ne moraš ga koristiti – bez Tailscalea aplikacija radi kao i svaki drugi MeshCore klijent.
 
 ## Node ostaje doma, MeshCore ide s tobom
 Node može ostati kod kuće – na krovu, uz prozor ili gdje god ima najbolje pokrivanje – spojen na WiFi i napajanje. Zahvaljujući **ugrađenom Tailscale VPN-u** aplikacija do njega dolazi s bilo kojeg mjesta preko interneta (mobilni podaci ili bilo koji WiFi), pa možeš čitati i slati MeshCore poruke, gledati kartu i upravljati nodeom **bez nošenja nodea sa sobom**.
