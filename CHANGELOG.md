@@ -4,6 +4,9 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.0.2
+- The search field looks like the category buttons below it (same outline and rounded corners, compact height) and has a clear button.
+
 ## 1.0.1
 - **Discover regions in range** – when choosing a region scope (default or per channel), the app asks the repeaters in direct range which regions they serve and lets you pick one with a tap.
 
@@ -113,6 +116,9 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.0.2
+- Polje za pretragu izgleda kao gumbovi kategorija ispod njega (isti rub i zaobljenost, manja visina) i ima gumb za brisanje.
 
 ## 1.0.1
 - **Otkrij regije u dometu** – pri odabiru scopea regije (zadanog ili za kanal) aplikacija pita repetitore u izravnom dometu koje regije poslužuju, a regiju odabireš jednim dodirom.
