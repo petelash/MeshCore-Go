@@ -2,7 +2,9 @@
 
 **English** · [Hrvatski](#hrvatski)
 
-Android client for [MeshCore](https://meshcore.co.uk) LoRa mesh nodes, with **Tailscale built in**: at home it talks to your WiFi companion node directly, away from home it reaches the same node through your tailnet. Nothing to switch.
+Android client for [MeshCore](https://meshcore.co.uk) LoRa mesh networks.
+
+**Works with every MeshCore companion node** – over Bluetooth LE, USB or WiFi – just like the official app. What sets it apart, and the reason it was made, is the **built-in Tailscale VPN**: you can use your MeshCore node from anywhere, while the node itself stays at home.
 
 ## Leave the node at home, take MeshCore with you
 Your node can stay at home – on the roof, by the window or wherever it has the best coverage – connected to WiFi and power. Thanks to the **built-in Tailscale VPN**, the app reaches it from anywhere over the internet (mobile data or any WiFi), so you can read and send MeshCore messages, see the map and manage the node **without carrying the node with you**.
@@ -11,7 +13,10 @@ Your node can stay at home – on the roof, by the window or wherever it has the
 - At home the app talks to the node directly over WiFi; away from home it switches to Tailscale by itself.
 - The node stays where its antenna works best and keeps receiving messages while you are away.
 
-You need a free [Tailscale](https://tailscale.com) account and, at home, a device that is always on and acts as a Tailscale *subnet router* (e.g. a Raspberry Pi, a NAS or a router with Tailscale), so the app can reach the node's home IP address.
+**What you need today:** a free [Tailscale](https://tailscale.com) account, a WiFi companion node and, at home, a device that is always on and acts as a Tailscale *subnet router* (e.g. a Raspberry Pi, a NAS or a router with Tailscale), so the app can reach the node's home IP address.
+
+### Coming soon: firmware with Tailscale built in
+Custom MeshCore companion firmware for the **Seeed Studio XIAO ESP32S3 + Wio-SX1262** with the **Tailscale VPN integrated directly in the node** will be published soon. The node will join your tailnet by itself, so **no extra computer or subnet router at home will be needed** – just the node, WiFi and power.
 
 This repository only holds the **releases** (APK files). The source code is not public.
 
@@ -59,7 +64,9 @@ Unofficial client – not affiliated with the MeshCore project or Tailscale Inc.
 <a id="hrvatski"></a>
 # MeshCore Go (hrvatski)
 
-Android klijent za [MeshCore](https://meshcore.co.uk) LoRa mesh nodeove s **ugrađenim Tailscaleom**: kod kuće se spaja izravno na tvoj WiFi companion node, a izvan kuće do istog nodea dolazi preko tvog tailneta. Ništa ne treba prebacivati.
+Android klijent za [MeshCore](https://meshcore.co.uk) LoRa mesh mreže.
+
+**Radi sa svim MeshCore companion nodeovima** – preko Bluetootha LE, USB-a ili WiFi-ja – kao i službena aplikacija. Ono po čemu se razlikuje, i razlog zbog kojeg je nastala, je **ugrađeni Tailscale VPN**: svoj MeshCore node možeš koristiti s bilo kojeg mjesta, a node pritom ostaje kod kuće.
 
 ## Node ostaje doma, MeshCore ide s tobom
 Node može ostati kod kuće – na krovu, uz prozor ili gdje god ima najbolje pokrivanje – spojen na WiFi i napajanje. Zahvaljujući **ugrađenom Tailscale VPN-u** aplikacija do njega dolazi s bilo kojeg mjesta preko interneta (mobilni podaci ili bilo koji WiFi), pa možeš čitati i slati MeshCore poruke, gledati kartu i upravljati nodeom **bez nošenja nodea sa sobom**.
@@ -68,7 +75,10 @@ Node može ostati kod kuće – na krovu, uz prozor ili gdje god ima najbolje po
 - Kod kuće se aplikacija spaja na node izravno preko WiFi-ja, a izvan kuće sama prelazi na Tailscale.
 - Node ostaje tamo gdje mu antena najbolje radi i prima poruke i dok tebe nema.
 
-Potreban je besplatan [Tailscale](https://tailscale.com) račun, a kod kuće uređaj koji je stalno uključen i služi kao Tailscale *subnet router* (npr. Raspberry Pi, NAS ili router s Tailscaleom), da aplikacija dođe do kućne IP adrese nodea.
+**Što je danas potrebno:** besplatan [Tailscale](https://tailscale.com) račun, WiFi companion node i kod kuće uređaj koji je stalno uključen i služi kao Tailscale *subnet router* (npr. Raspberry Pi, NAS ili router s Tailscaleom), da aplikacija dođe do kućne IP adrese nodea.
+
+### Uskoro: firmware s ugrađenim Tailscaleom
+Uskoro će biti objavljen prilagođeni MeshCore companion firmware za **Seeed Studio XIAO ESP32S3 + Wio-SX1262** s **Tailscale VPN-om integriranim izravno u node**. Node će se sam spojiti u tvoj tailnet, pa **kod kuće neće trebati dodatno računalo ni subnet router** – samo node, WiFi i napajanje.
 
 Ovaj repozitorij sadrži samo **izdanja** (APK datoteke). Izvorni kod nije javan.
 
