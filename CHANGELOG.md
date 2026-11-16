@@ -4,6 +4,11 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.0.4
+- Send advert button uses the ((•)) symbol, like the original app.
+- Contact search opens from the top bar (magnifier icon) instead of a permanent search field.
+- Received adverts moved to the ⋮ menu, with a counter of new nodes.
+
 ## 1.0.3
 - The connection notification shows the node's battery and, over Bluetooth, the signal strength (over WiFi: LAN or Tailscale) instead of the Bluetooth address.
 - The connection notification no longer adds an unread badge to the app icon.
@@ -120,6 +125,11 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.0.4
+- Gumb za slanje adverta koristi simbol ((•)), kao u originalnoj aplikaciji.
+- Pretraga kontakata otvara se iz gornje trake (ikona povećala) umjesto stalnog polja za pretragu.
+- Primljeni adverti premješteni su u izbornik ⋮, s brojačem novih nodeova.
 
 ## 1.0.3
 - Obavijest o vezi umjesto Bluetooth adrese prikazuje bateriju nodea i, preko Bluetootha, jačinu signala (preko WiFi-ja: LAN ili Tailscale).
