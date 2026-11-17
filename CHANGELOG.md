@@ -4,6 +4,12 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.0.9
+- Neighbour repeaters: signal status for each repeater – quality (excellent / good / weak / very weak) with SNR and RSSI, how well the repeater hears you, distance, and average / lowest / highest SNR.
+- Neighbour repeaters: sort by last heard, strongest signal or nearest.
+- Neighbour repeaters that are not contacts yet can be added with one tap (or all at once); the app first asks the repeater for its full name.
+- A short (1-byte) code is merged with the repeater already identified by a longer code; when it still fits several repeaters, tapping the question mark explains which ones, nearest first.
+
 ## 1.0.8
 - New **Neighbour repeaters** screen in the ⋮ menu (below Received adverts): the repeaters your node hears directly, with full names when known, SNR, RSSI, when each was last heard and how many packets came through it. The refresh button asks the repeaters in range to answer.
 
@@ -140,6 +146,12 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.0.9
+- Susjedni repetitori: status signala za svaki repetitor – ocjena (odličan / dobar / slab / vrlo slab) uz SNR i RSSI, koliko dobro repetitor čuje tebe, udaljenost te prosječni, najniži i najviši SNR.
+- Susjedni repetitori: razvrstavanje po zadnjem čutom, najjačem signalu ili najbližem.
+- Susjedni repetitori koji još nisu u kontaktima mogu se dodati jednim dodirom (ili svi odjednom); aplikacija prvo od repetitora dohvati njegov puni naziv.
+- Kratki kod (1 bajt) spaja se s repetitorom koji je već prepoznat po duljem kodu; ako i dalje odgovara više repetitora, dodir na upitnik objasni o kojima se radi, najbliži prvi.
 
 ## 1.0.8
 - Novi ekran **Susjedni repetitori** u izborniku ⋮ (ispod Primljeni adverti): repetitori koje tvoj node čuje izravno, s punim imenima kad su poznata, SNR-om, RSSI-jem, vremenom kad su zadnji put čuti i brojem paketa koji su stigli preko njih. Gumb za osvježavanje pita repetitore u dometu da se jave.
