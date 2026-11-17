@@ -4,6 +4,10 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.0.7
+- Send advert button: a short press sends a zero-hop advert, a long press sends a flood advert.
+- Tailscale → Devices in the tailnet: tap a device to connect to the MeshCore node on it (asks for confirmation first; the TCP port can be changed, default 5000).
+
 ## 1.0.6
 - The number of new received adverts is shown only next to "Received adverts" in the ⋮ menu, no longer on the menu icon.
 
@@ -133,6 +137,10 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.0.7
+- Tipka za slanje adverta: kratki pritisak šalje zero-hop advert, a dugi pritisak flood advert.
+- Tailscale → Uređaji u tailnetu: dodirom na uređaj spajaš se na MeshCore node na njemu (prvo traži potvrdu; TCP port se može promijeniti, zadano 5000).
 
 ## 1.0.6
 - Broj novih primljenih adverta prikazuje se samo uz "Primljeni adverti" u izborniku ⋮, a ne više na ikoni izbornika.
