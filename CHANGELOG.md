@@ -4,6 +4,15 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.1.0
+- **Hungarian** language (Settings → Appearance → Language → Magyar).
+- **Heard #channels you don't have**: the app recognises traffic on #channels that are not added (a built-in list of common channel, city and region names, your own names and channels mentioned in messages) and notifies once per channel, with **Add** and **Don't notify again** buttons. The same channels are listed at the top of the Channels tab, so you add only the ones you want.
+- Settings → Notifications: turn these notifications on or off, add your own channel names to watch, and reset the channels you silenced.
+- Settings → About: a **Changelog** link under the app version opens the changes of that version.
+- Adding and removing a channel is now instant (the app no longer re-reads every channel slot from the node).
+- Icon descriptions read by screen readers now follow the selected language.
+- Fixed: the sensor contact type was shown as "Sensor" in Croatian and Serbian.
+
 ## 1.0.9
 - Neighbour repeaters: signal status for each repeater – quality (excellent / good / weak / very weak) with SNR and RSSI, how well the repeater hears you, distance, and average / lowest / highest SNR.
 - Neighbour repeaters: sort by last heard, strongest signal or nearest.
@@ -146,6 +155,15 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.1.0
+- **Mađarski** jezik (Postavke → Izgled → Jezik → Magyar).
+- **Čuti #kanali koje nemaš**: aplikacija prepoznaje promet na #kanalima koji nisu dodani (ugrađeni popis čestih kanala, gradova i regija, tvoja imena i kanali spomenuti u porukama) i javlja obavijest jednom po kanalu, s gumbima **Dodaj** i **Ne obavještavaj više**. Isti kanali prikazani su na vrhu kartice Kanali, pa dodaješ samo one koje želiš.
+- Postavke → Obavijesti: uključivanje i isključivanje tih obavijesti, vlastita imena kanala za praćenje i reset utišanih kanala.
+- Postavke → O aplikaciji: link **Popis promjena** ispod verzije aplikacije otvara promjene te verzije.
+- Dodavanje i brisanje kanala sada je trenutno (aplikacija više ne čita ponovno sva mjesta za kanale s nodea).
+- Opisi ikona koje čita čitač ekrana sada su na odabranom jeziku.
+- Ispravljeno: tip kontakta senzor prikazivao se kao „Sensor” na hrvatskom i srpskom.
 
 ## 1.0.9
 - Susjedni repetitori: status signala za svaki repetitor – ocjena (odličan / dobar / slab / vrlo slab) uz SNR i RSSI, koliko dobro repetitor čuje tebe, udaljenost te prosječni, najniži i najviši SNR.
