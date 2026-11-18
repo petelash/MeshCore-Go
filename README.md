@@ -39,7 +39,7 @@ This repository only holds the **releases** (APK files). The source code is not 
 - Region scope (default on the node and per channel)
 - Notifications per channel and per contact, received adverts, repeater admin (status, telemetry, CLI)
 - Map with MeshCore node symbols, light / dark / AMOLED theme
-- Languages: Croatian, Serbian, English, German
+- Languages: Croatian, Serbian, English, German, Hungarian
 - Built-in update check
 
 ## Download and install
@@ -114,7 +114,7 @@ Ovaj repozitorij sadrži samo **izdanja** (APK datoteke). Izvorni kod nije javan
 - Scope regija (zadani na nodeu i po kanalu)
 - Obavijesti po kanalu i po kontaktu, primljeni adverti, administracija repetitora (status, telemetrija, CLI)
 - Karta sa simbolima MeshCore nodeova, svijetla / tamna / AMOLED tema
-- Jezici: hrvatski, srpski, engleski, njemački
+- Jezici: hrvatski, srpski, engleski, njemački, mađarski
 - Ugrađena provjera ažuriranja
 
 ## Preuzimanje i instalacija
