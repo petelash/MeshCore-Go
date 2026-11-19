@@ -10,6 +10,7 @@ All notable user-facing changes to MeshCore Go, newest first.
 - **Bluetooth search** shows two lists: **In range** (nodes found by the scan, strongest signal first, with signal bars and dBm, marked *saved* or *new*) and **Saved – not in range** (paired or saved nodes the scan did not find, greyed out but still tappable). The search starts by itself when the Bluetooth tab opens, and saved Bluetooth nodes are no longer listed twice. The signal shown is smoothed (median of the last readings), so the bars no longer flicker, and Bluetooth nodes paired only in Android can also be removed from the list (with a shortcut to the Bluetooth settings to unpair them).
 - Saved nodes (WiFi, Tailscale, USB and Bluetooth) no longer have a delete icon: hold a node to remove it, and the app asks for confirmation first.
 - Fixed: removing a node the app was still connecting to did not stop the attempts, and Cancel right after start-up could be undone by the background service starting the connection again.
+- Fixed: "Proslijedilo repetitora" (repeaters that forwarded your message) stayed at 0 on a channel that exists in more than one slot with the same key, e.g. a second "Public" used with a scope.
 - Croatian and Serbian wording: "heard" (čuti) is replaced everywhere, e.g. "Zadnje detektirani", "Detektirani kanali koje nemaš", "Detektiran je kanal …", "Proslijedilo repetitora: N" and "Tvoj signal kod repetitora".
 
 ## 1.1.0
@@ -170,6 +171,7 @@ Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
 - **Bluetooth pretraga** prikazuje dva popisa: **U dometu** (nodeovi koje je pretraga pronašla, od najjačeg signala, s crticama signala i dBm, označeni kao *spremljen* ili *novi*) i **Spremljeni – nisu u dometu** (upareni ili spremljeni nodeovi koje pretraga nije pronašla, sivi, ali se i dalje mogu odabrati). Pretraga se pokreće sama kad otvoriš karticu Bluetooth, a spremljeni Bluetooth nodeovi više se ne prikazuju dvaput. Prikazani signal je izglađen (medijan zadnjih očitanja), pa crtice više ne titraju, a i Bluetooth nodeovi upareni samo u Androidu mogu se ukloniti s popisa (uz prečac do postavki Bluetootha za raskidanje uparivanja).
 - Spremljeni nodeovi (WiFi, Tailscale, USB i Bluetooth) više nemaju ikonu za brisanje: drži node da ga ukloniš, a aplikacija prije toga traži potvrdu.
 - Ispravljeno: brisanje nodea na koji se aplikacija još spajala nije zaustavljalo pokušaje, a „Odustani” odmah nakon pokretanja mogla je poništiti pozadinska usluga ponovnim spajanjem.
+- Ispravljeno: „Proslijedilo repetitora” ostajao je na 0 na kanalu koji postoji u više mjesta s istim ključem, npr. drugi „Public” koji se koristi sa scopeom.
 - Izraz „čuti” zamijenjen je u cijeloj aplikaciji, npr. „Zadnje detektirani”, „Detektirani kanali koje nemaš”, „Detektiran je kanal …”, „Proslijedilo repetitora: N” i „Tvoj signal kod repetitora” (i na srpskom).
 
 ## 1.1.0
