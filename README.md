@@ -6,6 +6,12 @@ Android client for [MeshCore](https://meshcore.co.uk) LoRa mesh networks.
 
 > 🔗 **Companion project:** MeshCore Go is closely tied to **[MeshCore Tailscale Companion](https://github.com/petelash/meshcore-tailscale-companion)**, our companion firmware with Tailscale built into the node. Using that firmware with this app is recommended.
 
+> ### 👉 [Web flasher: put Tailscale VPN on your node](https://petelash.github.io/meshcore-tailscale-companion/)
+> With the **[web flasher](https://petelash.github.io/meshcore-tailscale-companion/)** you install the MeshCore Tailscale Companion firmware on a **Seeed Studio XIAO ESP32S3 + Wio-SX1262** in one click (Chrome or Edge on a computer, USB cable).
+> The firmware has the **Tailscale VPN built into the node**: the node joins your private, encrypted tailnet by itself and gets a 100.x.x.x address.
+> MeshCore Go, with its own built-in Tailscale, then reaches the node **from anywhere over the internet** (mobile data or any WiFi) – no subnet router,
+> no Raspberry Pi, no port forwarding and no public IP. The same page also updates the firmware later, keeping all settings.
+
 **MeshCore Go is a complete, everyday MeshCore app** – you use it exactly like the official MeshCore app: connect your companion node over **Bluetooth LE, USB or WiFi**, chat in channels and direct messages, see nodes on the map, manage repeaters and room servers. It **works with every MeshCore companion node**, whether you carry it with you or keep it on your desk.
 
 **On top of that it has one extra feature**, the reason this app was made: a **built-in Tailscale VPN**. With it you can use your MeshCore node from anywhere over the internet while the node itself stays at home (see below). You don't have to use it – without Tailscale the app works like any other MeshCore client.
@@ -80,6 +86,12 @@ Unofficial client – not affiliated with the MeshCore project or Tailscale Inc.
 Android klijent za [MeshCore](https://meshcore.co.uk) LoRa mesh mreže.
 
 > 🔗 **Povezani projekt:** MeshCore Go usko je povezan s našim projektom **[MeshCore Tailscale Companion](https://github.com/petelash/meshcore-tailscale-companion)**, companion firmwareom s Tailscaleom ugrađenim u sam node. Preporučuje se korištenje tog firmwarea s ovom aplikacijom.
+
+> ### 👉 [Web flasher: Tailscale VPN na tvom nodeu](https://petelash.github.io/meshcore-tailscale-companion/)
+> Preko **[web flashera](https://petelash.github.io/meshcore-tailscale-companion/)** jednim klikom instaliraš firmware MeshCore Tailscale Companion na **Seeed Studio XIAO ESP32S3 + Wio-SX1262** (Chrome ili Edge na računalu, USB kabel).
+> Firmware ima **Tailscale VPN ugrađen u sam node**: node se sam spoji u tvoju privatnu, šifriranu mrežu (tailnet) i dobije 100.x.x.x adresu.
+> MeshCore Go, koji ima svoj ugrađeni Tailscale, tada do nodea dolazi **s bilo kojeg mjesta preko interneta** (mobilni podaci ili bilo koji WiFi) – bez subnet routera,
+> bez Raspberry Pi-ja, bez otvaranja portova i bez javne IP adrese. Na istoj stranici firmware kasnije i nadograđuješ, uz zadržavanje svih postavki.
 
 **MeshCore Go je potpuna MeshCore aplikacija za svakodnevno korištenje** – koristiš je isto kao službenu MeshCore aplikaciju: spajaš companion node preko **Bluetootha LE, USB-a ili WiFi-ja**, dopisuješ se u kanalima i privatnim porukama, gledaš nodeove na karti, upravljaš repetitorima i chat sobama. **Radi sa svim MeshCore companion nodeovima**, bilo da node nosiš sa sobom ili ti stoji na stolu.
 
