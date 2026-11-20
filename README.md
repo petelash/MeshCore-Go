@@ -1,6 +1,6 @@
 # MeshCore Go
 
-**English** · [Hrvatski](#hrvatski)
+**English** · [Hrvatski](#hrvatski) · [Magyar](#magyar)
 
 Android client for [MeshCore](https://meshcore.co.uk) LoRa mesh networks.
 
@@ -149,3 +149,75 @@ Aplikacija se daje **„kakva jest”, bez ikakvog jamstva**; autor ne odgovara 
 Neslužbeni klijent – nije povezan s MeshCore projektom ni s tvrtkom Tailscale Inc. MeshCore i Tailscale pripadaju svojim vlasnicima.
 
 Komponente otvorenog koda i njihove licence navedene su u tablici iznad (engleski dio) i u aplikaciji: Postavke → O aplikaciji → Licenca.
+
+---
+
+<a id="magyar"></a>
+# MeshCore Go (magyar)
+
+Android kliens [MeshCore](https://meshcore.co.uk) LoRa mesh hálózatokhoz.
+
+> 🔗 **Kapcsolódó projekt:** a MeshCore Go szorosan kapcsolódik a **[MeshCore Tailscale Companion](https://github.com/petelash/meshcore-tailscale-companion)** projekthez, a saját companion firmware-ünkhöz, amelyben a Tailscale magába a node-ba van beépítve. Ezzel az alkalmazással ennek a firmware-nek a használata ajánlott.
+
+> ### 👉 [Webes flasher: Tailscale VPN a node-odra](https://petelash.github.io/meshcore-tailscale-companion/)
+> A **[webes flasherrel](https://petelash.github.io/meshcore-tailscale-companion/)** egy kattintással telepítheted a MeshCore Tailscale Companion firmware-t egy **Seeed Studio XIAO ESP32S3 + Wio-SX1262** eszközre (Chrome vagy Edge számítógépen, USB-kábel).
+> A firmware-ben a **Tailscale VPN magába a node-ba van beépítve**: a node magától csatlakozik a privát, titkosított tailnetedhez, és 100.x.x.x címet kap.
+> A saját beépített Tailscale-jével a MeshCore Go ezután **bárhonnan, az interneten keresztül** eléri a node-ot (mobilnet vagy bármilyen WiFi) – subnet router,
+> Raspberry Pi, porttovábbítás és nyilvános IP-cím nélkül. Ugyanezen az oldalon később a firmware-t is frissítheted, minden beállítás megmarad.
+
+**A MeshCore Go teljes értékű, mindennapi MeshCore alkalmazás** – pontosan úgy használod, mint a hivatalos MeshCore alkalmazást: **Bluetooth LE-n, USB-n vagy WiFi-n** csatlakoztatod a companion node-odat, csevegsz csatornákon és közvetlen üzenetekben, látod a node-okat a térképen, kezeled az átjátszókat és a room servereket. **Minden MeshCore companion node-dal működik**, akár magadnál hordod, akár az asztalodon áll.
+
+**Ezen felül van egy extra funkciója**, amiért az alkalmazás készült: a **beépített Tailscale VPN**. Ezzel a MeshCore node-odat bárhonnan használhatod az interneten keresztül, miközben maga a node otthon marad (lásd lent). Nem kötelező használni – Tailscale nélkül az alkalmazás ugyanúgy működik, mint bármely más MeshCore kliens.
+
+## A node otthon marad, a MeshCore veled jön
+A node otthon maradhat – a tetőn, az ablak mellett vagy ahol a legjobb a lefedettsége –, WiFi-re és áramra kötve. A **beépített Tailscale VPN-nek** köszönhetően az alkalmazás bárhonnan eléri az interneten keresztül (mobilnet vagy bármilyen WiFi), így olvashatod és küldheted a MeshCore üzeneteket, nézheted a térképet és kezelheted a node-ot **anélkül, hogy magadnál hordanád**.
+
+- Nincs szükség porttovábbításra és nyilvános IP-címre: a Tailscale privát, titkosított kapcsolatot hoz létre a telefonod és az otthoni hálózatod között.
+- Otthon az alkalmazás közvetlenül WiFi-n beszél a node-dal, otthonon kívül pedig magától átvált Tailscale-re.
+- A node ott marad, ahol az antennája a legjobban működik, és a távollétedben is fogadja az üzeneteket.
+
+**Amire szükséged van:** egy ingyenes [Tailscale](https://tailscale.com) fiók és egy WiFi companion node. Az ajánlott [MeshCore Tailscale Companion](https://github.com/petelash/meshcore-tailscale-companion) firmware-rel semmi más nem kell. Más WiFi firmware esetén otthon kell egy mindig bekapcsolt eszköz is, amely Tailscale *subnet routerként* működik (pl. Raspberry Pi, NAS vagy Tailscale-es router), hogy az alkalmazás elérje a node otthoni IP-címét.
+
+## Ajánlott firmware: MeshCore Tailscale Companion
+A MeshCore Go és a **[MeshCore Tailscale Companion](https://github.com/petelash/meshcore-tailscale-companion)** ugyanannak a projektnek két része, és együtt működnek a legjobban.
+
+- A firmware a **Seeed Studio XIAO ESP32S3 + Wio-SX1262** eszközön fut, és a **Tailscale VPN közvetlenül a node-ba van beépítve**.
+- A node magától csatlakozik a tailnetedhez, és 100.x.x.x címet kap, így **otthon nem kell külön számítógép vagy subnet router** – csak a node, WiFi és áram.
+- A MeshCore Go-ban nyisd meg a Tailscale → *Eszközök a tailnetben* menüt, és koppints a node-ra a csatlakozáshoz.
+- Egy kattintással telepítheted és frissítheted a **[webes flasherrel](https://petelash.github.io/meshcore-tailscale-companion/)** (Chrome vagy Edge számítógépen).
+
+Ezt a firmware-t ajánljuk a MeshCore Go Tailscale-en keresztüli használatához. Az alkalmazás minden más MeshCore companion firmware-rel is működik.
+
+Ez a tároló csak a **kiadásokat** (APK-fájlokat) tartalmazza. A forráskód nem nyilvános.
+
+## Funkciók
+- Csatlakozás WiFi-n (TCP, LAN vagy Tailscale), Bluetooth LE-n vagy USB-n
+- Közvetlen üzenetek, csatornák és room serverek; kézbesítési állapot és újrapróbálás (direct / flood)
+- Üzenetútvonalak a térképen, a csatornaüzenetedet továbbító átjátszók
+- Közvetlen üzenetek útvonalának beállítása (automatikus, mindig flood, kézi útvonal)
+- Régió scope (alapértelmezett a node-on és csatornánként)
+- Értesítések csatornánként és kontaktonként, fogadott advertek, átjátszók kezelése (állapot, telemetria, CLI)
+- Térkép MeshCore node-szimbólumokkal, világos / sötét / AMOLED téma
+- Nyelvek: horvát, szerb, angol, német, magyar
+- Beépített frissítésellenőrzés
+
+## Letöltés és telepítés
+1. Nyisd meg a **[Releases](../../releases/latest)** oldalt, és töltsd le a telefonodnak megfelelő APK-t:
+   - `…-arm64.apk` – szinte minden telefon az elmúlt évekből (ajánlott)
+   - `…-armv7.apk` – régebbi 32 bites telefonok
+   - `…-universal.apk` – ha nem vagy biztos benne (nagyobb)
+2. Nyisd meg a fájlt, és ha az Android kéri, engedélyezd az „Ismeretlen alkalmazások telepítése” lehetőséget a böngésződnek vagy fájlkezelődnek.
+
+## Frissítések
+Az egyes verziók változásai: **[CHANGELOG](CHANGELOG.md)** (angolul és horvátul).
+
+Az alkalmazás naponta egyszer ellenőrzi ezt a tárolót (Beállítások → Névjegy → *Frissítések keresése*, kikapcsolható). Ha van újabb verzió, felajánlja a letöltését; ezután az Android megerősítést kér a telepítéshez. Az üzeneteid és beállításaid megmaradnak.
+
+## Licenc
+MeshCore Go © 2026 Marinko Vrbanić, az **[MIT licenc](LICENSE)** alatt kiadva.
+Szabadon használhatod, másolhatod, módosíthatod és megoszthatod, ha megtartod a szerzői jogi megjegyzést és a licenc szövegét.
+Az alkalmazás **„ahogy van”, mindenféle garancia nélkül** kerül átadásra; a szerző nem felel a használatából eredő károkért.
+
+Nem hivatalos kliens – nem kapcsolódik a MeshCore projekthez és a Tailscale Inc. céghez. A MeshCore és a Tailscale a tulajdonosaiké.
+
+A nyílt forráskódú komponensek és licenceik a fenti táblázatban (angol rész) és az alkalmazásban találhatók: Beállítások → Névjegy → Licenc.
