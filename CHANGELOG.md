@@ -4,6 +4,10 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.1.2
+- **Unread messages**: when you open a chat with unread messages, it opens at the first unread one, marked by a line with "Unread messages". Scroll down to the newer ones yourself; a new message moves the list down only when you are already at the bottom.
+- "Proslijedilo repetitora" (repeaters that forwarded your message): the number is red while no repeater has forwarded the message and green from one up.
+
 ## 1.1.1
 - **Channel order**: hold a channel in the Channels tab and drag it up or down to change the order. Holding without moving still opens the channel menu, which now also has **Restore original order**.
 - The order is changed and saved **only in the app**, separately for each node, and stays after reconnecting and restarting the app. Nothing is written to the node: the channels keep their slots on the node, and other apps connected to the same node keep their own order.
@@ -164,6 +168,10 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.1.2
+- **Nepročitane poruke**: razgovor s nepročitanim porukama otvara se na prvoj nepročitanoj, označenoj crtom s natpisom „Nepročitane poruke”. Prema novijim porukama listaš sam; nova poruka pomiče popis prema dolje samo ako si već na dnu.
+- „Proslijedilo repetitora”: broj je crven dok poruku nije proslijedio nijedan repetitor, a zelen od jednog naviše.
 
 ## 1.1.1
 - **Redoslijed kanala**: drži kanal u kartici Kanali i povuci ga gore ili dolje da promijeniš redoslijed. Držanje bez pomicanja i dalje otvara izbornik kanala, u kojem je sada i **Vrati izvorni redoslijed**.
