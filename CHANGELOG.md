@@ -4,6 +4,9 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.1.3
+- Connect → WiFi / Tailscale: a new card, **Use your node from anywhere**, describes the MeshCore Tailscale Companion firmware, which builds the Tailscale VPN into the node itself (no extra computer at home, no port forwarding, no public IP). It has buttons to open the web flasher and to share its link, since the flasher runs on a computer (Chrome or Edge).
+
 ## 1.1.2
 - **Unread messages**: when you open a chat with unread messages, it opens at the first unread one, marked by a line with "Unread messages". Scroll down to the newer ones yourself; a new message moves the list down only when you are already at the bottom.
 - "Proslijedilo repetitora" (repeaters that forwarded your message): the number is red while no repeater has forwarded the message and green from one up.
@@ -168,6 +171,9 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.1.3
+- Spajanje → WiFi / Tailscale: nova kartica **Koristi svoj node s bilo kojeg mjesta** opisuje firmware MeshCore Tailscale Companion, koji Tailscale VPN ugrađuje u sam node (bez dodatnog računala kod kuće, bez otvaranja portova i bez javne IP adrese). Ima gumbe za otvaranje web flashera i dijeljenje njegovog linka, jer flasher radi na računalu (Chrome ili Edge).
 
 ## 1.1.2
 - **Nepročitane poruke**: razgovor s nepročitanim porukama otvara se na prvoj nepročitanoj, označenoj crtom s natpisom „Nepročitane poruke”. Prema novijim porukama listaš sam; nova poruka pomiče popis prema dolje samo ako si već na dnu.
