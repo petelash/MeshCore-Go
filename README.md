@@ -77,6 +77,8 @@ Unofficial client – not affiliated with the MeshCore project or Tailscale Inc.
 | AndroidX, Jetpack Compose, Kotlin, kotlinx.coroutines | Apache License 2.0 |
 | MeshCore Map – node symbols (map.meshcore.dev), © 2025 Rastislav Vysoky | MIT |
 | Map data © OpenStreetMap contributors | ODbL |
+| Fonts: Open Sans, Montserrat, Poppins, Inter, Nunito, Raleway, Rubik (Google Fonts) | SIL Open Font License 1.1 |
+| Font: Roboto Slab (Google Fonts) | Apache License 2.0 |
 
 ---
 
