@@ -4,6 +4,9 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.1.4
+- WiFi / Tailscale: the app now notices when the link to the node silently drops (no internet, Tailscale path down, node without power). The battery query it already sends every minute doubles as a link check: if the node does not answer twice in a row, the link is treated as lost, just like with Bluetooth – the "link to the node dropped" notification is shown (if turned on) and the app reconnects by itself. When the phone switches networks, the link is checked right away.
+
 ## 1.1.3
 - Connect → WiFi / Tailscale: a new card, **Use your node from anywhere**, describes the MeshCore Tailscale Companion firmware, which builds the Tailscale VPN into the node itself (no extra computer at home, no port forwarding, no public IP). It has buttons to open the web flasher and to share its link, since the flasher runs on a computer (Chrome or Edge).
 
@@ -171,6 +174,9 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.1.4
+- WiFi / Tailscale: aplikacija sada primijeti kad veza s nodeom tiho padne (nema interneta, prekinut Tailscale put, node bez struje). Upit za bateriju koji ionako šalje svake minute služi i kao provjera veze: ako node dvaput zaredom ne odgovori, veza se smatra prekinutom, kao i kod Bluetootha – prikaže se obavijest o prekidu veze (ako je uključena) i aplikacija se sama ponovno spaja. Kad mobitel promijeni mrežu, veza se provjeri odmah.
 
 ## 1.1.3
 - Spajanje → WiFi / Tailscale: nova kartica **Koristi svoj node s bilo kojeg mjesta** opisuje firmware MeshCore Tailscale Companion, koji Tailscale VPN ugrađuje u sam node (bez dodatnog računala kod kuće, bez otvaranja portova i bez javne IP adrese). Ima gumbe za otvaranje web flashera i dijeljenje njegovog linka, jer flasher radi na računalu (Chrome ili Edge).
