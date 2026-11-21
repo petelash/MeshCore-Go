@@ -4,6 +4,11 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.1.5
+- Settings → Contacts: automatic adding of new contacts can be turned on or off separately for chat (companion) nodes, repeaters, room servers and sensors (also in Received adverts → automatic adding). Needs node firmware that supports it; with older firmware the single "manual adding" switch stays.
+- **Delete contacts** (menu ⋮ → Delete contacts…): delete many contacts from the node at once – by type (chat, repeaters, room servers, sensors), keeping favourites or not, and all of them or only those not heard from in 1 week, 1 month, 3 or 6 months. The list shows which contacts will go and single ones can be left out; you confirm before anything is deleted, and deleting can be stopped. Message history stays on the phone.
+- Settings → Appearance → Font opens its own list instead of showing every font on the page, and has eight more fonts built in: Open Sans, Montserrat, Poppins, Inter, Nunito, Raleway, Roboto Slab and Rubik. The phone's own fonts are still there.
+
 ## 1.1.4
 - WiFi / Tailscale: the app now notices when the link to the node silently drops (no internet, Tailscale path down, node without power). The battery query it already sends every minute doubles as a link check: if the node does not answer twice in a row, the link is treated as lost, just like with Bluetooth – the "link to the node dropped" notification is shown (if turned on) and the app reconnects by itself. When the phone switches networks, the link is checked right away.
 
@@ -174,6 +179,11 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.1.5
+- Postavke → Kontakti: automatsko dodavanje novih kontakata može se zasebno uključiti ili isključiti za chat (companion) nodeove, repetitore, chat sobe (room servere) i senzore (i u Primljeni adverti → automatsko dodavanje). Potreban je firmware nodea koji to podržava; sa starijim firmwareom ostaje jedan prekidač za ručno dodavanje.
+- **Brisanje kontakata** (izbornik ⋮ → Obriši kontakte…): brisanje više kontakata s nodea odjednom – po vrsti (chat, repetitori, chat sobe, senzori), sa ili bez favorita, i svih ili samo onih koji se nisu javili 1 tjedan, 1 mjesec, 3 ili 6 mjeseci. Popis pokazuje koji će kontakti biti obrisani i pojedine možeš izostaviti; prije brisanja traži se potvrda, a brisanje se može prekinuti. Povijest poruka ostaje na mobitelu.
+- Postavke → Izgled → Font otvara vlastiti popis umjesto da su svi fontovi na stranici, a ugrađeno je i osam novih fontova: Open Sans, Montserrat, Poppins, Inter, Nunito, Raleway, Roboto Slab i Rubik. Fontovi sustava ostali su.
 
 ## 1.1.4
 - WiFi / Tailscale: aplikacija sada primijeti kad veza s nodeom tiho padne (nema interneta, prekinut Tailscale put, node bez struje). Upit za bateriju koji ionako šalje svake minute služi i kao provjera veze: ako node dvaput zaredom ne odgovori, veza se smatra prekinutom, kao i kod Bluetootha – prikaže se obavijest o prekidu veze (ako je uključena) i aplikacija se sama ponovno spaja. Kad mobitel promijeni mrežu, veza se provjeri odmah.
