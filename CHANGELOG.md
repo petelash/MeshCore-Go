@@ -4,6 +4,9 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.1.9
+- New languages: **Romanian**, **Bulgarian** and **Slovenian**. The language is now chosen from a drop-down list in Settings → Appearance. In these three languages a text that is not translated yet is shown in English.
+
 ## 1.1.8
 - Small improvements.
 
@@ -190,6 +193,9 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.1.9
+- Novi jezici: **rumunjski**, **bugarski** i **slovenski**. Jezik se sada bira iz padajućeg izbornika u Postavke → Izgled. U ta tri jezika tekst koji još nije preveden prikazuje se na engleskom.
 
 ## 1.1.8
 - Manja poboljšanja.
