@@ -4,6 +4,9 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.1.7
+- Direct messages are retried more before they are marked as failed. With the automatic route and a known path: 3 attempts along the path, then 3 as flood; with no known path: 3 attempts as flood straight away. Always flood sends 3 as flood, and a manual path 3 along it. The "not delivered" mark appears only after the last attempt.
+
 ## 1.1.6
 - Settings → Notifications: each kind of notification can have its own sound and vibration – private messages, channels, mentions in channels, chat rooms, detected #channels and link to the node dropped. The sound is chosen from the phone's sounds (or none), and the vibration is the phone's own or none; "More in the Android settings" opens the phone's page for that kind of notification, where some phones offer other vibration patterns too. "Same sound and vibration for all" uses one setting for every notification.
 - Settings → Contacts: the automatic adding switches for each contact type are now in their own window ("Automatic adding of contacts").
@@ -184,6 +187,9 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.1.7
+- Privatne poruke se prije oznake „Nije isporučeno” pokušavaju slati više puta. S automatskom rutom i poznatom putanjom: 3 pokušaja putanjom, pa 3 floodom; ako putanja nije poznata: odmah 3 pokušaja floodom. „Uvijek flood” šalje 3 puta floodom, a ručna putanja 3 puta tom putanjom. Oznaka „Nije isporučeno” pojavi se tek nakon zadnjeg pokušaja.
 
 ## 1.1.6
 - Postavke → Obavijesti: svaka vrsta obavijesti može imati svoj zvuk i vibraciju – privatne poruke, kanali, spominjanja u kanalima, chat sobe, detektirani #kanali i prekid veze s nodeom. Zvuk se bira među tonovima mobitela (ili bez zvuka), a vibracija je zadana vibracija mobitela ili bez vibracije; „Više u postavkama Androida” otvara Androidovu stranicu za tu vrstu obavijesti, gdje neki mobiteli nude i druge uzorke vibracije. „Isti zvuk i vibracija za sve” koristi jednu postavku za sve obavijesti.
