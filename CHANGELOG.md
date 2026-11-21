@@ -4,6 +4,11 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.1.6
+- Settings → Notifications: each kind of notification can have its own sound and vibration – private messages, channels, mentions in channels, chat rooms, detected #channels and link to the node dropped. The sound is chosen from the phone's sounds (or none), and the vibration is the phone's own or none; "More in the Android settings" opens the phone's page for that kind of notification, where some phones offer other vibration patterns too. "Same sound and vibration for all" uses one setting for every notification.
+- Settings → Contacts: the automatic adding switches for each contact type are now in their own window ("Automatic adding of contacts").
+- A sound or vibration set earlier in the Android settings for the old "Messages" notifications is not carried over and has to be chosen again.
+
 ## 1.1.5
 - Settings → Contacts: automatic adding of new contacts can be turned on or off separately for chat (companion) nodes, repeaters, room servers and sensors (also in Received adverts → automatic adding). Needs node firmware that supports it; with older firmware the single "manual adding" switch stays.
 - **Delete contacts** (menu ⋮ → Delete contacts…): delete many contacts from the node at once – by type (chat, repeaters, room servers, sensors), keeping favourites or not, and all of them or only those not heard from in 1 week, 1 month, 3 or 6 months. The list shows which contacts will go and single ones can be left out; you confirm before anything is deleted, and deleting can be stopped. Message history stays on the phone.
@@ -179,6 +184,11 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.1.6
+- Postavke → Obavijesti: svaka vrsta obavijesti može imati svoj zvuk i vibraciju – privatne poruke, kanali, spominjanja u kanalima, chat sobe, detektirani #kanali i prekid veze s nodeom. Zvuk se bira među tonovima mobitela (ili bez zvuka), a vibracija je zadana vibracija mobitela ili bez vibracije; „Više u postavkama Androida” otvara Androidovu stranicu za tu vrstu obavijesti, gdje neki mobiteli nude i druge uzorke vibracije. „Isti zvuk i vibracija za sve” koristi jednu postavku za sve obavijesti.
+- Postavke → Kontakti: prekidači za automatsko dodavanje po vrstama kontakata sada su u vlastitom prozoru („Automatsko dodavanje kontakata”).
+- Zvuk ili vibracija ranije postavljeni u Androidovim postavkama za stare obavijesti „Poruke” ne prenose se i treba ih ponovno odabrati.
 
 ## 1.1.5
 - Postavke → Kontakti: automatsko dodavanje novih kontakata može se zasebno uključiti ili isključiti za chat (companion) nodeove, repetitore, chat sobe (room servere) i senzore (i u Primljeni adverti → automatsko dodavanje). Potreban je firmware nodea koji to podržava; sa starijim firmwareom ostaje jedan prekidač za ručno dodavanje.
