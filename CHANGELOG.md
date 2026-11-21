@@ -4,6 +4,9 @@
 
 All notable user-facing changes to MeshCore Go, newest first.
 
+## 1.1.8
+- Small improvements.
+
 ## 1.1.7
 - Direct messages are retried more before they are marked as failed. With the automatic route and a known path: 3 attempts along the path, then 3 as flood; with no known path: 3 attempts as flood straight away. Always flood sends 3 as flood, and a manual path 3 along it. The "not delivered" mark appears only after the last attempt.
 
@@ -187,6 +190,9 @@ All notable user-facing changes to MeshCore Go, newest first.
 # Popis promjena (hrvatski)
 
 Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+
+## 1.1.8
+- Manja poboljšanja.
 
 ## 1.1.7
 - Privatne poruke se prije oznake „Nije isporučeno” pokušavaju slati više puta. S automatskom rutom i poznatom putanjom: 3 pokušaja putanjom, pa 3 floodom; ako putanja nije poznata: odmah 3 pokušaja floodom. „Uvijek flood” šalje 3 puta floodom, a ručna putanja 3 puta tom putanjom. Oznaka „Nije isporučeno” pojavi se tek nakon zadnjeg pokušaja.
