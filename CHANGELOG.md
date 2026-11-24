@@ -2,7 +2,23 @@
 
 **English** · [Hrvatski](#hrvatski)
 
-All notable user-facing changes to MeshCore Go, newest first.
+All notable user-facing changes to MeshOne Go, newest first.
+
+## 1.2.0
+- **Contact permissions**: one new screen in Settings → Contacts and privacy replaces the three telemetry rows. For basic telemetry, location and environment you choose *Nobody*, *Selected contacts* or *Everybody*; with *Selected contacts* you pick the contacts one by one, or all favourites or all contacts at once. The same screen controls who may send **remote commands (CLI)** to your node.
+- **Command line for companions**: in a direct chat with a companion contact, the ⋮ menu has *Command line*. It works only if that contact allowed remote commands for you; if it does not answer, the app says so.
+- **Editable command buttons** in the repeater / room server console: *Edit* opens a list of all remote commands to switch on as buttons, add your own, reorder and restore the defaults. Commands with an argument only fill in the beginning, dangerous ones ask first. Companions have their own button list.
+- **Telemetry on the map**: a GPS reading now shows a small map with the position and a *Show on map* button, on a contact and in My telemetry. On the map you can refresh that position, or have it refreshed automatically every few seconds (you choose how often).
+- **Trace on map** (⋮ menu on the main screen): tap repeaters on the map in order, reorder them in the list, see the total distance, and run a trace. The path is exactly as you draw it (the same repeater can be picked up to 2 times, for the way back). After the reply every leg shows its SNR, coloured by quality, and the round-trip time is shown; if the path does not complete, the map shows how far the link reaches. A warning appears when two repeaters on the path share the same first key byte.
+- A **?** icon next to the Trace / Discover path buttons explains the difference between them.
+- **The app is now called MeshOne Go** (it was MeshCore Go), so it is not mistaken for the official MeshCore app. The icon keeps the same design, with the new name and a white “GO” flag.
+- On the maps, your node is a circle whose centre flashes red every second, with its name next to it; contact and repeater names are shown on the main map too. A button on both maps takes you to your location (the connected node's position, or the phone's GPS if the node has none).
+- *Trace on map* has a **Stop** button, and *Clear* is now *Delete*.
+- If the node reports a battery of 0 V or 0 %, the app says the battery is not connected.
+- When you have opened a position from telemetry, *Stop following* on the map removes it and returns the map to normal.
+- Telemetry readings are labelled without the channel in brackets: *Temperature:*, or *Temperature 1:*, *Temperature 2:* when there are several of a kind.
+- The contact list now opens on the *Chat* filter instead of *All*.
+- All new texts are translated into all eight languages.
 
 ## 1.1.9
 - New languages: **Romanian**, **Bulgarian** and **Slovenian**. The language is now chosen from a drop-down list in Settings → Appearance. In these three languages a text that is not translated yet is shown in English.
@@ -192,7 +208,23 @@ All notable user-facing changes to MeshCore Go, newest first.
 <a id="hrvatski"></a>
 # Popis promjena (hrvatski)
 
-Sve važnije promjene u MeshCore Go za korisnike, od najnovije.
+Sve važnije promjene u MeshOne Go za korisnike, od najnovije.
+
+## 1.2.0
+- **Dozvole kontakata**: novi ekran u Postavke → Kontakti i privatnost zamjenjuje tri retka telemetrije. Za osnovnu telemetriju, lokaciju i okolinu biraš *Nikome*, *Odabrani kontakti* ili *Svima*; kod *Odabranih kontakata* biraš kontakte jedan po jedan, ili sve favorite odnosno sve kontakte odjednom. Isti ekran određuje tko smije slati **udaljene naredbe (CLI)** tvom nodeu.
+- **Naredbeni redak za companione**: u izravnom razgovoru s companion kontaktom u izborniku ⋮ je *Naredbeni redak*. Radi samo ako je taj kontakt dopustio udaljene naredbe za tebe; ako ne odgovara, aplikacija to kaže.
+- **Uredivi gumbi naredbi** u konzoli repeatera / chat sobe: *Uredi* otvara popis svih udaljenih naredbi koje možeš uključiti kao gumbe, dodati vlastite, preslagati i vratiti zadano. Naredbe s argumentom samo upišu početak, a opasne prvo traže potvrdu. Companioni imaju vlastiti popis gumba.
+- **Telemetrija na karti**: GPS očitanje sada prikazuje malu kartu s položajem i gumb *Pokaži na karti*, na kontaktu i u Mojoj telemetriji. Na karti možeš osvježiti taj položaj ili ga automatski osvježavati svakih nekoliko sekundi (sam biraš koliko često).
+- **Trace preko karte** (izbornik ⋮ na glavnom ekranu): dodiruj repetitore na karti redom, preslaži ih u popisu, vidi ukupnu udaljenost i pokreni trace. Putanja je točno onakva kakvu nacrtaš (isti repetitor možeš odabrati do 2 puta, za povratak). Nakon odgovora svaki dio putanje prikazuje SNR, obojen prema kvaliteti, te vrijeme obilaska; ako putanja ne prođe do kraja, karta pokazuje dokle veza dopire. Upozorenje se pojavi kad dva repetitora na putanji imaju isti prvi bajt ključa.
+- Ikona **?** uz gumbe Trace / Otkrij putanju objašnjava razliku među njima.
+- **Aplikacija se sada zove MeshOne Go** (prije MeshCore Go), kako se ne bi zamijenila sa službenom aplikacijom MeshCore. Ikona je istog dizajna, s novim nazivom i bijelom zastavicom „GO”.
+- Na kartama je tvoj node krug čija sredina svake sekunde zatreperi crveno, s nazivom uz njega; na glavnoj karti vide se i nazivi kontakata i repetitora. Gumb na obje karte vodi te na tvoju lokaciju (položaj spojenog noda ili GPS mobitela ako node nema lokaciju).
+- *Trace preko karte* ima gumb **Prekini**, a *Očisti* je sada *Obriši*.
+- Ako node javlja bateriju od 0 V ili 0 %, aplikacija piše da baterija nije spojena.
+- Kad otvoriš položaj iz telemetrije, *Prestani pratiti* na karti ga uklanja i vraća kartu u normalan prikaz.
+- Telemetrija više ne piše kanal u zagradi: *Temperatura:*, odnosno *Temperatura 1:*, *Temperatura 2:* kad ima više istih podataka.
+- Popis kontakata sada se otvara na filtru *Chat* umjesto *Svi*.
+- Svi novi tekstovi prevedeni su na svih osam jezika.
 
 ## 1.1.9
 - Novi jezici: **rumunjski**, **bugarski** i **slovenski**. Jezik se sada bira iz padajućeg izbornika u Postavke → Izgled. U ta tri jezika tekst koji još nije preveden prikazuje se na engleskom.
