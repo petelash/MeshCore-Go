@@ -1,5 +1,10 @@
 # MeshOne Go
 
+> [!IMPORTANT]
+> **The project has moved to [petelash/MeshOne-Go](https://github.com/petelash/MeshOne-Go).** New versions are published only there. This repository stays only so that older versions of the app can update: install **1.2.1** from here, then tap *Check for updates* in the app.
+>
+> **Projekt se preselio na [petelash/MeshOne-Go](https://github.com/petelash/MeshOne-Go).** Nove verzije objavljuju se samo ondje. Ovaj repozitorij ostaje samo da bi se starije verzije aplikacije mogle ažurirati: odavde instaliraj **1.2.1**, a zatim u aplikaciji dodirni *Provjeri za ažuriranja*.
+
 **English** · [Hrvatski](#hrvatski) · [Srpski](#srpski) · [Deutsch](#deutsch) · [Magyar](#magyar) · [Română](#romana) · [Български](#bulgarski) · [Slovenščina](#slovenscina)
 
 Android client for [MeshCore](https://meshcore.co.uk) LoRa mesh networks.
